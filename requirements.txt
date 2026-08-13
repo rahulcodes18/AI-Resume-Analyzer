@@ -4,4 +4,4 @@ python-dotenv
 google-adk
 google-genai
 pydantic
-python-multipart
+python-multipartpypdf
