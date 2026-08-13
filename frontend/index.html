@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Resume Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>AI Resume Analyzer</h1>
+            <p>Upload your resume and get AI-powered career insights.</p>
+        </div>
+
+        <div class="card">
+
+            <h2>Analyze Your Resume</h2>
+
+            <label for="resumeFile">Upload Resume (PDF)</label>
+
+            <input type="file" id="resumeFile" accept=".pdf,application/pdf">
+
+            <label for="targetRole">Target Role</label>
+
+            <input type="text" id="targetRole" placeholder="Example: Java Backend Developer">
+
+            <button type="button" id="analyzeButton">
+                Analyze Resume
+            </button>
+
+        </div>
+
+        <div class="result-card">
+
+            <h2>Analysis Result</h2>
+
+            <div id="loading" class="loading">
+                Uploading and analyzing your resume... Please wait.
+            </div>
+
+            <div id="result">
+                Your resume analysis will appear here.
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
