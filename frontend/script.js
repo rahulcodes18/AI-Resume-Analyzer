@@ -45,7 +45,7 @@ async function analyzeResume() {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:8001/run",
+            "https://ai-resume-analyzer-1-b2pu.onrender.com/run",
             {
                 method: "POST",
                 body: formData
